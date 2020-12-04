@@ -7,6 +7,10 @@ import (
 )
 
 func main() {
+	const maxTurns = 10
+
+	// arg1 := os.Args[1]
+
 	rand.Seed(time.Now().Unix())
 	guess := 10
 
